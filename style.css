@@ -1,0 +1,30 @@
+:root {
+  --primary-color: black;
+  --secondary-color: white;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, Arial;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+
+section {
+  display: grid;
+  width: 100vw;
+  padding: 5vw;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 2vw;
+  color: var(--primary-color);
+}
+section div {
+  background-color: pink;
+}
+section div.images {
+  background-color: blue;
+}
