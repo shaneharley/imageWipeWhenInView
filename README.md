@@ -1,5 +1,5 @@
 # imageWipeWhenInView
-##Preview: https://image-wipe-when-in-view.netlify.app/
+## Preview: https://image-wipe-when-in-view.netlify.app/
 
 Code to make an image apply a wipe transition when it comes into the viewport
 - Detect when a section is 75% in view
